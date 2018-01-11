@@ -6,7 +6,7 @@ A place to store .css for custom slack styling that can be served up via http
 
 ## Directions
 
-append the following code snippet to C:\Users\<username>\AppData\Local\slack\app-3.0.0\resources\app.asar.unpacked/src/static/ssb-interop.js:
+Append the following code snippet to `C:\Users\<username>\AppData\Local\slack\app-3.0.0\resources\app.asar.unpacked/src/static/ssb-interop.js`:
 
 ```javascript
 document.addEventListener('DOMContentLoaded', function() {
