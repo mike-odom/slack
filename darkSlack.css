@@ -79,6 +79,7 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
 }
 
 ts-message {
+  color: var(--text) !important;
   border-radius: 5px;
   margin: 1px !important;
   border-right: 1px;
