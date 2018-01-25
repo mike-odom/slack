@@ -53,7 +53,7 @@ ts-jumper ol li .channel_name {
 .light_theme ts-message .message_content a.message_sender,
 #msg_input::-webkit-input-placeholder,
 ts-jumper input[type="text"]::-webkit-input-placeholder {
-  color: var(--text) !important;
+  color: #fc9867 !important;
 }
 
 #msg_input,
@@ -83,7 +83,7 @@ ts-message {
   margin: 1px !important;
   border-right: 1px;
   border-left: 1px;
-  1px solid transparent !important;
+/*   1px solid transparent !important; */
   /* reserve space for hover */
 }
 
