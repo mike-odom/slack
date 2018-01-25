@@ -255,7 +255,7 @@ a:hover {
 .channels_list_holder ul li .mpim_name,
 .channels_list_holder ul li>a:link,
 ts-message a.timestamp {
-  color: #aaa !important;
+  color: #fc9867 !important;
 }
 
 #channels_scroller.show_which_channel_is_active ul li.active .im_name {
