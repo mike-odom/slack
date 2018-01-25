@@ -47,7 +47,7 @@ ts-jumper input[type="text"],
 ts-jumper ol li .member_real_name,
 ts-jumper ol li .view_name,
 ts-jumper ol li .channel_name {
-  color: #eee !important;
+  color: #fc9867 !important;
 }
 
 .light_theme ts-message .message_content a.message_sender,
