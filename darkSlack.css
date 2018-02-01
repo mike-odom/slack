@@ -5,7 +5,7 @@
 
 :root {
   --primary: #09F;
-  --accent: #57A;
+  --accent: #fc9867;
 
   --background: #080808;
   --background-elevated: #222;
@@ -15,7 +15,7 @@
   --border-dim: #666;
   --border-bright: var(--primary);
 
-  --text: #CCC;
+  --text: #fc9867;
   --text-alt: var(--accent);
   --text-special: var(--primary);
 
@@ -47,13 +47,13 @@ ts-jumper input[type="text"],
 ts-jumper ol li .member_real_name,
 ts-jumper ol li .view_name,
 ts-jumper ol li .channel_name {
-  color: #eee !important;
+  color: #fc9867 !important;
 }
 
 .light_theme ts-message .message_content a.message_sender,
 #msg_input::-webkit-input-placeholder,
 ts-jumper input[type="text"]::-webkit-input-placeholder {
-  color: #aaa !important;
+  color: #fc9867 !important;
 }
 
 #msg_input,
@@ -79,11 +79,12 @@ ts-jumper input[type="text"]::-webkit-input-placeholder {
 }
 
 ts-message {
+  color: var(--text) !important;
   border-radius: 5px;
   margin: 1px !important;
   border-right: 1px;
   border-left: 1px;
-  1px solid transparent !important;
+/*   1px solid transparent !important; */
   /* reserve space for hover */
 }
 
@@ -255,7 +256,7 @@ a:hover {
 .channels_list_holder ul li .mpim_name,
 .channels_list_holder ul li>a:link,
 ts-message a.timestamp {
-  color: #aaa !important;
+  color: #fc9867 !important;
 }
 
 #channels_scroller.show_which_channel_is_active ul li.active .im_name {
